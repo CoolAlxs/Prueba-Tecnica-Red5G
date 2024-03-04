@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis desembolsos</title>
+    <link rel="stylesheet" href="table.css">
+    <script src="table.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="../Imagenes/logox2.png" alt="Logo">
+        </div>
+        <a href="../Login/login.html" id="cerrarSesion">
+            <span>Cerrar sesión</span>
+            <i class="fas fa-sign-out-alt"></i>
+        </a>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Mis desembolsos</h2>
+            <a href="#" class="btn-descarga"> <i class="fa-solid fa-download"></i> Descargar</a>
+        </div>
+
+        <div class="form-container">
+
+            <label class="label-input" for="tipo-documento">Tipo de Documento:
+                <select class="select-input" id="tipo-documento">
+                    <option value="">Todos</option>
+                    <option value="CEDULA">Cédula</option>
+                    <option value="PASAPORTE">Pasaporte</option>
+                    <option value="NIT">NIT</option>
+                    <i class="fa-solid fa-angle-down"></i>
+                </select>
+                <i class="fa-solid fa-angle-down"></i>
+            </label>
+
+            <div class="input-container">
+                <input type="text" id="numero-documento" required>
+                <label class="label" for="numero-documento">Número de Documento</label>
+            </div>
+
+            <div class="input-container">
+                <input type="text" id="numero-desembolso" required>
+                <label class="label" for="numero-desembolso">Número de Desembolso</label>
+            </div>
+            <div class="input-container">
+                <input class="oculto" type="date" id="fecha-desde">
+                <label class="label" for="fecha-desde">Fecha Desde:</label>
+            </div>
+
+            <div class="input-container">
+                <input type="date" id="fecha-hasta">
+                <label class="label" for="fecha-hasta">Fecha Hasta:</label>
+            </div>
+
+            <button class="find" onclick="buscarRegistros()"><i class="fa-solid fa-magnifying-glass fa-rotate-90"></i> </button>
+        </div>
+
+        <section class="tabla-desembolsos">
+
+            <table id="tabla-json">
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Número de desembolso</th>
+                        <th>Tipo documento</th>
+                        <th>Número de documento</th>
+                        <th>Monto</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla-cuerpo">
+                </tbody>
+            </table>
+
+            <section class="paginacion">
+                <div class="pagina-container">
+                    <button onclick="previousPage()"><i class="fa-solid fa-angle-left"></i></button>
+
+                    <span class="pagina-actual" id="pagina-actual">1 </span> de <span id="total-paginas"> 1</span>
+
+                    <button onclick="nextPage()"><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+
+                <label class="label-registro" for="registro-pagina">Registros por página
+                    <select class="select-registro" id="registro-pagina" onchange="cambiarRegistros()">
+                        <option class="color" value="10">10</option>
+                        <option class="color" value="20">20</option>
+                        <option class="color" value="40">40</option>
+                    </select>
+                    <i class="fa-solid fa-angle-down"></i>
+                </label>
+            </section>
+
+
+        </section>
+    </main>
+    <script src="table.js"></script>
+    <script src="https://kit.fontawesome.com/61677c831a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

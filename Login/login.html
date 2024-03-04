@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sufipay</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="login.js"></script>
+</head>
+
+<body>
+    <main>
+        <img class="img1" src="../Imagenes/Grupo 32967@2x.png">
+        <img class="img2" src="../Imagenes/Grupo 32966@2x.png">
+        <img class="img3" src="../Imagenes/Elipse 197@2x.png">
+        <img class="img4" src="../Imagenes/Grupo 36052@2x.png">
+        <img class="img5" src="../Imagenes/Grupo 36075@2x.png">
+        <img class="img6" src="../Imagenes/Elipse 197@2x.png">
+
+        <div id="container" class="container">
+            <img class="logo" src="../Imagenes/logox2.png" alt="Logo Sufipay">
+            <h1 class="titulo">Sufipay</h1>
+            <h2>Administrador comercial</h2>
+
+
+            <div class="form-container">
+                <form id="loginForm">
+
+                    <div class="input-container">
+                        <input class="input-margin-bottom"  id="usuario" type="text" required/>
+                        <label class="label" for="input">Usuario</label>
+                    </div>
+                    <div class="input-container">
+                        <input id="contraseña" type="password" required/>
+                        <label class="label" for="input">Contraseña</label>
+                    </div>
+
+                </form>
+            </div>
+
+            <button class="boton-ingresar"type="button" onclick="validateLogin()">INGRESAR</button>
+
+            <a class="no-password" onclick="forgotPassword()">No recuerdo mi contraseña</a>
+        </div>
+
+    </main>
+</body>
+
+</html>

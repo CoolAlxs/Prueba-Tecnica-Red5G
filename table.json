@@ -1,0 +1,282 @@
+[
+    {
+        "tipo_identificacion": "CEDULA",
+        "numero_identificacion": "1000000001",
+        "numero_desembolsos": 1,
+        "fecha": "2023-01-01",
+        "monto": 1000000
+    },
+    {
+        "tipo_identificacion": "CEDULA",
+        "numero_identificacion": "1000000002",
+        "numero_desembolsos": 2,
+        "fecha": "2023-02-01",
+        "monto": 2000000
+    },
+    {
+        "tipo_identificacion": "PASAPORTE",
+        "numero_identificacion": "AB123456",
+        "numero_desembolsos": 3,
+        "fecha": "2023-12-31",
+        "monto": 3000000
+    },
+    {
+        "tipo_identificacion": "CEDULA",
+        "numero_identificacion": "123456789",
+        "numero_desembolsos": 1,
+        "fecha": "2024-03-04",
+        "monto": 1000000
+    },
+    {
+        "tipo_identificacion": "NIT",
+        "numero_identificacion": "123456789-1",
+        "numero_desembolsos": 2,
+        "fecha": "2024-02-25",
+        "monto": 5000000
+    },
+    {
+        "tipo_identificacion": "PASAPORTE",
+        "numero_identificacion": "AB123456",
+        "numero_desembolsos": 3,
+        "fecha": "2024-01-15",
+        "monto": 2000000
+    },
+    {
+        "tipo_identificacion": "OTROS",
+        "numero_identificacion": "XYZ123456",
+        "numero_desembolsos": 1,
+        "fecha": "2023-12-31",
+        "monto": 3500000
+    },
+    {
+        "tipo_identificacion": "CEDULA",
+        "numero_identificacion": "987654321",
+        "numero_desembolsos": 4,
+        "fecha": "2024-03-05",
+        "monto": 780000
+    },
+    {
+        "tipo_identificacion": "NIT",
+        "numero_identificacion": "987654321-2",
+        "numero_desembolsos": 1,
+        "fecha": "2024-03-03",
+        "monto": 1200000
+    },
+    {
+        "tipo_identificacion": "PASAPORTE",
+        "numero_identificacion": "CD543210",
+        "numero_desembolsos": 2,
+        "fecha": "2024-02-20",
+        "monto": 4300000
+    },
+    {
+        "tipo_identificacion": "OTROS",
+        "numero_identificacion": "LMN543216",
+        "numero_desembolsos": 5,
+        "fecha": "2024-01-10",
+        "monto": 2100000
+    },
+    {
+        "tipo_identificacion": "CEDULA",
+        "numero_identificacion": "321098765",
+        "numero_desembolsos": 3,
+        "fecha": "2023-12-20",
+        "monto": 850000
+    },
+    {
+        "tipo_identificacion": "NIT",
+        "numero_identificacion": "321098765-3",
+        "numero_desembolsos": 2,
+        "fecha": "2023-12-12",
+        "monto": 1900000
+    },
+    {
+        "tipo_identificacion": "PASAPORTE",
+        "numero_identificacion": "EF123456",
+        "numero_desembolsos": 1,
+        "fecha": "2023-11-25",
+        "monto": 6700000
+    },
+    {
+        "tipo_identificacion": "OTROS",
+        "numero_identificacion": "OPQ123456",
+        "numero_desembolsos": 4,
+        "fecha": "2023-11-10",
+        "monto": 3200000
+    },
+    {
+        "tipo_identificacion": "CEDULA",
+        "numero_identificacion": "543210987",
+        "numero_desembolsos": 1,
+        "fecha": "2023-10-31",
+        "monto": 590000
+    },
+    {
+        "tipo_identificacion": "NIT",
+        "numero_identificacion": "543210987-4",
+        "numero_desembolsos": 3,
+        "fecha": "2023-10-15",
+        "monto": 1400000
+    },
+    {
+        "tipo_identificacion": "CEDULA",
+        "numero_identificacion": "987654321",
+        "numero_desembolsos": 4,
+        "fecha": "2024-03-05",
+        "monto": 780000
+    },
+    {
+        "tipo_identificacion": "NIT",
+        "numero_identificacion": "987654321-2",
+        "numero_desembolsos": 1,
+        "fecha": "2024-03-03",
+        "monto": 1200000
+    },
+    {
+        "tipo_identificacion": "PASAPORTE",
+        "numero_identificacion": "CD543210",
+        "numero_desembolsos": 2,
+        "fecha": "2024-02-20",
+        "monto": 4300000
+    },
+    {
+        "tipo_identificacion": "OTROS",
+        "numero_identificacion": "LMN543216",
+        "numero_desembolsos": 5,
+        "fecha": "2024-01-10",
+        "monto": 2100000
+    },
+    {
+        "tipo_identificacion": "CEDULA",
+        "numero_identificacion": "321098765",
+        "numero_desembolsos": 3,
+        "fecha": "2023-12-20",
+        "monto": 850000
+    },
+    {
+        "tipo_identificacion": "NIT",
+        "numero_identificacion": "321098765-3",
+        "numero_desembolsos": 2,
+        "fecha": "2023-12-12",
+        "monto": 1900000
+    },
+    {
+        "tipo_identificacion": "PASAPORTE",
+        "numero_identificacion": "EF123456",
+        "numero_desembolsos": 1,
+        "fecha": "2023-11-25",
+        "monto": 6700000
+    },
+    {
+        "tipo_identificacion": "OTROS",
+        "numero_identificacion": "OPQ123456",
+        "numero_desembolsos": 4,
+        "fecha": "2023-11-10",
+        "monto": 3200000
+    },
+    {
+        "tipo_identificacion": "CEDULA",
+        "numero_identificacion": "543210987",
+        "numero_desembolsos": 1,
+        "fecha": "2023-10-31",
+        "monto": 590000
+    },
+    {
+        "tipo_identificacion": "NIT",
+        "numero_identificacion": "543210987-4",
+        "numero_desembolsos": 3,
+        "fecha": "2023-10-15",
+        "monto": 1400000
+    },
+    {
+        "tipo_identificacion": "CEDULA",
+        "numero_identificacion": "789456123",
+        "numero_desembolsos": 2,
+        "fecha": "2024-03-06",
+        "monto": 785000
+    },
+    {
+        "tipo_identificacion": "CEDULA",
+        "numero_identificacion": "789456123",
+        "numero_desembolsos": 2,
+        "fecha": "2024-03-06",
+        "monto": 920000
+    },
+    {
+        "tipo_identificacion": "NIT",
+        "numero_identificacion": "789456123-5",
+        "numero_desembolsos": 4,
+        "fecha": "2024-03-02",
+        "monto": 2300000
+    },
+    {
+        "tipo_identificacion": "PASAPORTE",
+        "numero_identificacion": "GH543210",
+        "numero_desembolsos": 1,
+        "fecha": "2024-02-18",
+        "monto": 5100000
+    },
+    {
+        "tipo_identificacion": "OTROS",
+        "numero_identificacion": "RST123456",
+        "numero_desembolsos": 3,
+        "fecha": "2024-01-05",
+        "monto": 4500000
+    },
+    {
+        "tipo_identificacion": "CEDULA",
+        "numero_identificacion": "123789456",
+        "numero_desembolsos": 2,
+        "fecha": "2023-12-15",
+        "monto": 1600000
+    },
+    {
+        "tipo_identificacion": "NIT",
+        "numero_identificacion": "123789456-6",
+        "numero_desembolsos": 1,
+        "fecha": "2023-12-08",
+        "monto": 700000
+    },
+    {
+        "tipo_identificacion": "PASAPORTE",
+        "numero_identificacion": "IJ123456",
+        "numero_desembolsos": 5,
+        "fecha": "2023-11-20",
+        "monto": 3800000
+    },
+    {
+        "tipo_identificacion": "OTROS",
+        "numero_identificacion": "UVW123456",
+        "numero_desembolsos": 2,
+        "fecha": "2023-11-07",
+        "monto": 2500000
+    },
+    {
+        "tipo_identificacion": "CEDULA",
+        "numero_identificacion": "456123789",
+        "numero_desembolsos": 4,
+        "fecha": "2023-10-28",
+        "monto": 1000000
+    },
+    {
+        "tipo_identificacion": "NIT",
+        "numero_identificacion": "456123789-7",
+        "numero_desembolsos": 3,
+        "fecha": "2023-10-10",
+        "monto": 2800000
+    },
+    {
+        "tipo_identificacion": "CEDULA",
+        "numero_identificacion": "456123789",
+        "numero_desembolsos": 4,
+        "fecha": "2023-10-28",
+        "monto": 1000000
+    },
+    {
+        "tipo_identificacion": "NIT",
+        "numero_identificacion": "456123789-7",
+        "numero_desembolsos": 3,
+        "fecha": "2023-10-10",
+        "monto": 2800000
+    }
+]
